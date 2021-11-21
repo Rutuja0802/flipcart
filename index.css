@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+body {
+    margin: 0%;
+}
+
+.header {
+    background-color: #2874f0;
+    width: 100%;
+    height: 56px;
+    color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+    justify-content: space-evenly;
+    position: sticky;
+}
+p span:hover{
+    text-decoration: underline;
+    color: #ffe11b;
+    font-style: italic;
+}
+p {
+    font-weight: bolder;
+}
+
+button {
+    padding: 5px 40px;
+}
+.search input {
+    padding: 5px 40px;
+}
+.more {
+    padding: 5px 40px; 
+}
+
+.ShoppingBar {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   height: 200PX;
+   box-shadow: 0 0 10px black;
+   width: 100%;
+
+   
+}
+.ShoppingBar td :hover {
+    box-shadow: black 0 0 10px;
+}
+
+.image {
+    padding: 30px;
+    text-align: center;
+}
+#paytmImage {
+    box-shadow: black 0 0 10px;
+    border-radius: 10%;
+    margin-top: 2%;
+}
+
+#beautyProduct {
+    box-shadow: black 0 0 10px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+    width: 100%;
+
+}
+#beautyProduct td {
+    padding: 50px;
+    width: 100%;
+    
+}
+#beautyProduct td :hover {
+    box-shadow: black 0 0 10px;
+}
+.footer {
+    background-color: #172327;
+    padding: 40px;
+    color: cornsilk;
+    text-align: center;
+    width: 100%;
+   margin: 10px;
+}
